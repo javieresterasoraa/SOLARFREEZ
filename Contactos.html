@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarFreez</title>
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+    <link rel="icon" href="assets/Imagenes/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/CSS/General.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <div class="container-fluid flex-grow-1 d-flex flex-column" style="flex:1;">
+        <div class="row bg-info hover-underline">
+            <nav class="navbar navbar-expand-xl navbar-light bg-orange">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse show" id="navbarBasic">
+                        <ul class="navbar-nav me-auto mb-2 mb-xl-0 text-primary fw-bold">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Introducción</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Contactos.html">Contactanos</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <button class="btn btn-outline-success custom-btn-blue" type="button">
+                                <a href="Login.html" class="custom-link-black">
+                                    <strong>login/sign-up</strong>
+                                </a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row flex-grow-1" style="flex:1;">
+            <div class="col-2 bg-primary">
+                <ul class="list-group">
+                    <li class="list-group-item active"> <strong>Accesos rápidos</strong></li>
+                </ul>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="index.html#nosotros"
+                            style="text-decoration:none; color:inherit;">Sobre nosotros</a></li>
+                    <li class="list-group-item"><a href="Productos.html#topventas"
+                            style="text-decoration:none; color:inherit;">Top ventas</a></li>
+                    <li class="list-group-item"><a href="Contactos.html"
+                            style="text-decoration:none; color:inherit;">Contacta con mantenimiento</a></li>
+                </ul>
+            </div>
+            <div class="col-10 d-flex align-items-center justify-content-center">
+                <div class="w-100" style="max-width: 500px;">
+                    <form>
+                        <div class="form-group row">
+                            <label for="Departamento" class="col-4 col-form-label">Escoge el departamento</label>
+                            <div class="col-8">
+                                <select id="select" name="select" class="custom-select">
+                                    <option value="Manteni">Mantenimiento</option>
+                                    <option value="Atencion">Atencion al cliente</option>
+                                    <option value="NInstal">Nuevas instalaciones</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="Usuario" class="col-4 col-form-label">NIF del propietario</label>
+                            <div class="col-8">
+                                <input id="Usuario" name="Usuario" type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="Correo" class="col-4 col-form-label">Correo</label>
+                            <div class="col-8">
+                                <input id="Correo" name="Correo" type="mail" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="textarea" class="col-4 col-form-label">Motivo del mensaje</label>
+                            <div class="col-8">
+                                <textarea id="textarea" name="textarea" cols="40" rows="5"
+                                    class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-4 col-8">
+                                <button name="submit" type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid bg-info mt-auto py-4">
+            <div class="row align-items-center text-center text-md-start">
+                <div
+                    class="col-md-3 col-12 mb-3 mb-md-0 d-flex align-items-center justify-content-center justify-content-md-start">
+                    <img src="assets/Imagenes/logo.png" alt="Logo" class="footer-logo">
+                </div>
+                <div class="col-md-1 d-none d-md-block"></div>
+                <div class="col-md-4 col-12 mb-3 mb-md-0">
+                    <h6>Servicio al cliente
+                        <br><span class="fw-normal">Tel.: 123456789</span>
+                        <br><span class="fw-normal">atiende@solarfreez.com</span>
+                    </h6>
+                </div>
+                <div class="col-md-4 col-12">
+                    <h6>Redes sociales
+                        <br><span class="fw-normal">Facebook: solarfreez</span>
+                        <br><span class="fw-normal">Instagram: @solarfreez</span>
+                        <br><span class="fw-normal">Twitter: @solarfreez</span>
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
