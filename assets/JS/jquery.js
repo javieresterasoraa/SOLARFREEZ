@@ -1,0 +1,29 @@
+$('#productos,#login,#contactos,#topventas').hide();
+$('#button1').click(function(){
+    $('#productos,#contactos,#topventas,#login').hide();
+    $('#index').show();
+});
+$('#button2').click(function(){
+    $('#index,#contactos,#topventas,#login').hide();
+    $('#productos').show();
+});
+$('#button3').click(function(){
+    $('#index,#productos,#topventas,#login').hide();
+    $('#contactos').show();
+});
+$('#button4').click(function(){
+    $('#index,#productos,#contactos,#topventas').hide();
+    $('#login').show();
+});
+$('#fast1').click(function(){
+    $('#productos,#contactos,#topventas,#login').hide();
+    $('#index').show();
+});
+$('#fast2').click(function(){
+    $('#index,#contactos,#productos,#login').hide();
+    $('#topventas,#productos').show();
+});
+$('#fast3').click(function(){
+    $('#index,#productos,#topventas,#login').hide();
+    $('#contactos').show();
+});
