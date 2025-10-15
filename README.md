@@ -56,12 +56,6 @@ Prioridad de fuentes: Open Sans, Arial, Helvetica, Sans-serif.
 - Quitar outline y box-shadow al pulsar (focus/active) para apariencia limpia.  
 - Mantener contraste y accesibilidad mínima.  
 
-Ejemplo CSS:
-#button1, #button2, #button3, #fast1, #fast2, #fast3, #button4 {
-    color: black;
-    outline: none;
-    box-shadow: none;
-}
 
 ### Imágenes y productos
 - Cada producto dentro de una card con imagen, título y precio.  
