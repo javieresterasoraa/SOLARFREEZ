@@ -34,8 +34,8 @@
                         </ul>
                         <form id="cabeza" class="d-flex">
                             <button id="buscar" class="btn btn-outline-success" type="submit">Buscar</button>
-                             <input id="buscar" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"
-                                wfd-id="id148">
+                            <input id="buscar" class="form-control me-2" type="search" placeholder="Buscar"
+                                aria-label="Search" wfd-id="id148">
 
                             <button class="btn btn-outline-success custom-btn-blue" id="button4" type="button">
                                 <strong>login sign-up</strong>
@@ -60,12 +60,14 @@
                             ventas</button>
                     </li>
                     <li class="list-group-item">
-                        <button type="button" id="fast3" class="btn btn-link w-100 text-start" id="btn-contacta">Contacta con
+                        <button type="button" id="fast3" class="btn btn-link w-100 text-start"
+                            id="btn-contacta">Contacta con
                             mantenimiento</button>
                     </li>
                 </ul>
             </div>
-            <div class="col-10 d-flex align-items-center justify-content-center" style="min-height: calc(100vh - 120px);">
+            <div class="col-10 d-flex align-items-center justify-content-center"
+                style="min-height: calc(100vh - 120px);">
                 <div id="index">
                     <div class="row">
                         <div class="col-8 mx-auto">
@@ -110,7 +112,7 @@
                                         <div class="card-footer">
                                             <button id="producto1" class="btn btn-primary">Saber más</button>
                                             <p id="1producto"><strong>230$</strong></p>
-                                            
+
                                         </div>
                                     </div>
                                 </div>
@@ -246,106 +248,117 @@
                 </div>
                 <div id="contactos">
                     <div class="row">
-                    <div class="w-100" style="max-width: 500px;">
-                        <form>
-                            <div class="form-group row">
-                                <label for="Departamento" class="col-4 col-form-label">Escoge el departamento</label>
-                                <div class="col-8">
-                                    <select id="select" name="select" class="custom-select">
-                                        <option value="Manteni">Mantenimiento</option>
-                                        <option value="Atencion">Atencion al cliente</option>
-                                        <option value="NInstal">Nuevas instalaciones</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="Usuario" class="col-4 col-form-label">NIF del propietario</label>
-                                <div class="col-8">
-                                    <input id="Usuario" name="Usuario" type="text" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="Correo" class="col-4 col-form-label">Correo</label>
-                                <div class="col-8">
-                                    <input id="Correo" name="Correo" type="mail" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="textarea" class="col-4 col-form-label">Motivo del mensaje</label>
-                                <div class="col-8">
-                                    <textarea id="textarea" name="textarea" cols="40" rows="5"
-                                        class="form-control"></textarea>
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="offset-4 col-8">
-                                    <button name="submit" type="submit" class="btn btn-primary">Enviar</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                </div>
-                <div id="login">
-                    <div class="row">
-                    <div class="w-100" style="max-width: 500px;">
-                        <form>
-                            <div data-mdb-input-init class="form-outline mb-4">
-                                <label class="form-label" for="Correo">Correo</label>
-                                <input type="email" id="Correo" class="form-control" />
-
-                            </div>
-                            <div data-mdb-input-init class="form-outline mb-4">
-                                <label class="form-label" for="Contraseña">Contraseña</label>
-                                <input type="password" id="Contraseña" class="form-control" />
-
-                            </div>
-                            <div class="row mb-4">
-                                <div class="col d-flex justify-content-center">
-
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="form2Example31"
-                                            checked />
-                                        <label class="form-check-label" for="form2Example31"> Remember me </label>
+                        <div class="w-100" style="max-width: 500px;">
+                            <form>
+                                <div class="form-group row">
+                                    <label for="Departamento" class="col-4 col-form-label">Escoge el
+                                        departamento</label>
+                                    <div class="col-8">
+                                        <select id="select" name="select" class="custom-select" required>
+                                            <option value="" disabled selected>Selecciona una opción</option>
+                                            <option value="Manteni">Mantenimiento</option>
+                                            <option value="Atencion">Atención al cliente</option>
+                                            <option value="NInstal">Nuevas instalaciones</option>
+                                        </select>
                                     </div>
                                 </div>
 
-                                <div class="col">
-
-                                    <a href="#!">Forgot password?</a>
+                                <div class="form-group row">
+                                    <label for="Usuario" class="col-4 col-form-label">NIF del propietario</label>
+                                    <div class="col-8">
+                                        <input id="Usuario" name="Usuario" type="text" class="form-control" required>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <button type="button" data-mdb-button-init data-mdb-ripple-init
-                                class="btn btn-primary btn-block mb-4">Sign in</button>
+                                <div class="form-group row">
+                                    <label for="Correo" class="col-4 col-form-label">Correo</label>
+                                    <div class="col-8">
+                                        <input id="Correo" name="Correo" type="email" class="form-control"
+                                            placeholder="nombre@ejemplo.com" required>
+                                    </div>
+                                </div>
 
+                                <div class="form-group row">
+                                    <label for="textarea" class="col-4 col-form-label">Motivo del mensaje</label>
+                                    <div class="col-8">
+                                        <textarea id="textarea" name="textarea" cols="40" rows="5" class="form-control"
+                                            required></textarea>
+                                    </div>
+                                </div>
 
-                            <div class="text-center">
-                                <p>Not a member? <a href="#!">Register</a></p>
-                                <p>or sign up with:</p>
-                                <button type="button" data-mdb-button-init data-mdb-ripple-init
-                                    class="btn btn-link btn-floating mx-1">
-                                    <i class="fab fa-facebook-f"></i>
-                                </button>
+                                <div class="form-group row">
+                                    <div class="offset-4 col-8">
+                                        <button name="submit" type="submit" class="btn btn-primary">Enviar</button>
+                                    </div>
+                                </div>
+                            </form>
 
-                                <button type="button" data-mdb-button-init data-mdb-ripple-init
-                                    class="btn btn-link btn-floating mx-1">
-                                    <i class="fab fa-google"></i>
-                                </button>
-
-                                <button type="button" data-mdb-button-init data-mdb-ripple-init
-                                    class="btn btn-link btn-floating mx-1">
-                                    <i class="fab fa-twitter"></i>
-                                </button>
-
-                                <button type="button" data-mdb-button-init data-mdb-ripple-init
-                                    class="btn btn-link btn-floating mx-1">
-                                    <i class="fab fa-github"></i>
-                                </button>
-                            </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
+                <div id="login">
+                    <div class="row">
+                        <div class="w-100" style="max-width: 500px;">
+                            <form>
+                                <div data-mdb-input-init class="form-outline mb-4">
+                                    <label class="form-label" for="Correo">Correo</label>
+                                    <input type="email" id="Correo" class="form-control"
+                                        placeholder="nombre@ejemplo.com" required />
+                                </div>
+
+                                <div data-mdb-input-init class="form-outline mb-4">
+                                    <label class="form-label" for="Contraseña">Contraseña</label>
+                                    <input type="password" id="Contraseña" class="form-control" required />
+                                </div>
+
+                                <div class="row mb-4">
+                                    <div class="col d-flex justify-content-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="form2Example31"
+                                                checked />
+                                            <label class="form-check-label" for="form2Example31">
+                                                Remember me
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <a href="#!">Forgot password?</a>
+                                    </div>
+                                </div>
+
+                                <button type="submit" data-mdb-button-init data-mdb-ripple-init
+                                    class="btn btn-primary btn-block mb-4">
+                                    Sign in
+                                </button>
+
+                                <div class="text-center">
+                                    <p>Not a member? <a href="#!">Register</a></p>
+                                    <p>or sign up with:</p>
+
+                                    <button type="button" data-mdb-button-init data-mdb-ripple-init
+                                        class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </button>
+
+                                    <button type="button" data-mdb-button-init data-mdb-ripple-init
+                                        class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-google"></i>
+                                    </button>
+
+                                    <button type="button" data-mdb-button-init data-mdb-ripple-init
+                                        class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </button>
+
+                                    <button type="button" data-mdb-button-init data-mdb-ripple-init
+                                        class="btn btn-link btn-floating mx-1">
+                                        <i class="fab fa-github"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

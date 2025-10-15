@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+
 $('#productos,#login,#contactos,#topventas').hide();
-=======
+
 $('#productos,#login,#contactos,#topventas,#1producto,#2producto,#3producto,#4producto,#5producto,#6producto,#7producto,#8producto,#9producto').hide();
->>>>>>> dev
 $('#button1').click(function(){
     $('#productos,#contactos,#topventas,#login').hide();
     $('#index').show();
@@ -30,10 +29,9 @@ $('#fast2').click(function(){
 $('#fast3').click(function(){
     $('#index,#productos,#topventas,#login').hide();
     $('#contactos').show();
-<<<<<<< HEAD
+
 });
-=======
-});
+
 
 $('#producto1').click(function(){
     $('#1producto').show();
@@ -62,4 +60,4 @@ $('#producto8').click(function(){
 $('#producto9').click(function(){
     $('#9producto').show();
 });
->>>>>>> dev
+
