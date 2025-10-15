@@ -73,6 +73,7 @@ body {
     transform: scale(1.15);
 }
 
+
 .main-content {
     flex: 1;
     display: flex;
@@ -106,7 +107,18 @@ body {
     max-width: 180px;
 }
 
-.list-group-item a {
+.list-group-item button{
     text-decoration: none;
     color: inherit;
+}
+li button {
+    color: black;
+}
+#cabeza button {
+    color: black;
+}
+#button1, #button2, #button3,
+#fast1, #fast2, #fast3,
+#button4 {
+    box-shadow: none;
 }

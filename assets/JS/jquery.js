@@ -1,0 +1,57 @@
+$('#productos,#login,#contactos,#topventas,#1producto,#2producto,#3producto,#4producto,#5producto,#6producto,#7producto,#8producto,#9producto').hide();
+$('#button1').click(function(){
+    $('#productos,#contactos,#topventas,#login').hide();
+    $('#index').show();
+});
+$('#button2').click(function(){
+    $('#index,#contactos,#topventas,#login').hide();
+    $('#productos').show();
+});
+$('#button3').click(function(){
+    $('#index,#productos,#topventas,#login').hide();
+    $('#contactos').show();
+});
+$('#button4').click(function(){
+    $('#index,#productos,#contactos,#topventas').hide();
+    $('#login').show();
+});
+$('#fast1').click(function(){
+    $('#productos,#contactos,#topventas,#login').hide();
+    $('#index').show();
+});
+$('#fast2').click(function(){
+    $('#index,#contactos,#productos,#login').hide();
+    $('#topventas,#productos').show();
+});
+$('#fast3').click(function(){
+    $('#index,#productos,#topventas,#login').hide();
+    $('#contactos').show();
+});
+
+$('#producto1').click(function(){
+    $('#1producto').show();
+});
+$('#producto2').click(function(){
+    $('#2producto').show();
+});
+$('#producto3').click(function(){
+    $('#3producto').show();
+});
+$('#producto4').click(function(){
+    $('#4producto').show();
+});
+$('#producto5').click(function(){
+    $('#5producto').show();
+});
+$('#producto6').click(function(){
+    $('#6producto').show();
+});
+$('#producto7').click(function(){
+    $('#7producto').show();
+});
+$('#producto8').click(function(){
+    $('#8producto').show();
+});
+$('#producto9').click(function(){
+    $('#9producto').show();
+});
